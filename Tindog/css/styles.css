@@ -1,0 +1,154 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-Bold', sans-serif;
+
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.navbar{
+  margin-bottom: 75px;
+}
+.nav-item{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  color: #FF8FB1;
+}
+.phone-img{
+  width: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+  right:22%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+#features{
+  padding:7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.ftrs{
+  background-color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+.circle{
+  color: #ff4c68;
+  padding-bottom: 25px;
+  padding-top: 25px;
+
+}
+.bullseye{
+  color: #ff4c68;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.heart{
+  color: #ff4c68;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.circle:hover, .bullseye:hover, .heart:hover{
+  color: red;
+}
+
+
+/* testimonials */
+#testimonials{
+  text-align: center;
+  background-color: #ff4c75;
+  color: #fff;
+}
+.carousel-item{
+  padding: 0 150px;
+}
+.testimonialImg{
+  width:20%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ff4c75;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin:30px;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.twitter, .fb, .inst, .mail{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width:900px) {
+
+  .phone-img{
+    position: static;
+    transform: rotate(0deg);
+    width:60%;
+  }
+  .dogImg{
+    position: static;
+    width: 100%;
+  }
+  #title{
+    text-align: center;
+  }
+}
